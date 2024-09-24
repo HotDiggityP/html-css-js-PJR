@@ -1,0 +1,167 @@
+@media screen and (max-width: 1400px) {
+    #hero {
+        height: 80vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #home-nav {
+        display: flex;
+    }
+
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    
+    #hero, .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+
+    #port-carousel {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: 40vh
+    }
+
+    #hero {
+        height: 100vh;
+        margin-bottom: 0;
+    }
+
+    #about {
+        height:fit-content;
+    }
+
+    #experience {
+        height: fit-content;
+    }
+
+    #portfolio {
+        height: fit-content;
+    }
+
+    #port-carousel {
+        display: none;
+    }
+
+    #contact {
+        height: fit-content;
+    }
+
+    section {
+        height: 100vh;
+        margin: auto;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    footer p {
+        margin-top: 2rem;
+        font-size: .8rem;
+    }
+
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        width: fit-content;
+        margin: 1rem;
+    }
+
+    .contact-info-container p, .nav-links li a {
+        font-size: .8rem;
+    }
+
+    .experience-subtitle {
+        font-size: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 50vw;
+        justify-content: center;
+    }
+
+    .details-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .text-container {
+        font-size: .8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+   .section__text_p1 {
+    font-size: 1rem;
+   }
+   
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

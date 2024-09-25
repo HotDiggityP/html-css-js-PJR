@@ -186,6 +186,17 @@ section {
     font-weight: 600;
 }
 
+.section__text__p0 {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width:100%;
+    font-size: 2rem;
+    opacity: 60%;
+}
+
 .section__text__p1 {
     text-align: center;
     font-size: 1.75rem;

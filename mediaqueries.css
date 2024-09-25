@@ -29,8 +29,17 @@
         display: none;
     }
 
+    .show-arrow {
+        display: none;
+    }
+
     section, .section-container {
         height: fit-content;
+    }
+
+    .section__text__p0 {
+        position: absolute;
+        top: 0;
     }
 
     section {
@@ -47,6 +56,12 @@
         margin-top: 0;
     }
 
+    h3 {
+        font-size: .8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     #port-carousel {
         margin-top: 2rem;
     }
@@ -58,6 +73,8 @@
     }
 
     #hero {
+        flex-direction: column;
+        gap: 2rem;
         height: 100vh;
         margin-bottom: 0;
     }
@@ -153,7 +170,14 @@
         text-align: left;
     }
 
-   .section__text_p1 {
+    .section__text__p0 {
+        font-size: 1rem;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+    }
+
+   .section__text__p1 {
     font-size: 1rem;
    }
    

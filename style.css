@@ -237,7 +237,7 @@ section {
 
 .btn {
     font-weight: 600;
-    transition: all 300ms ease;
+    transition: all 500ms ease;
     padding: 1rem;
     width: 10rem;
     border-radius: 2rem;
@@ -257,7 +257,7 @@ section {
 
 .btn-color-1, 
 .btn-color-2:hover {
-    background: white;
+    background: rgb(243, 243, 243);
     color: black;
 }
 
@@ -387,7 +387,7 @@ article .icon {
 }
 
 .color-container {
-    border-color: rgb(163,163,163);
+    border-color: lightskyblue;
     background: rgb(250,250,250);
 }
 
